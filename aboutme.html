@@ -2,12 +2,22 @@
 <html>
 <head>
 <title>Portfolio</title>
+  
+  <script>
+  var giantDog = function() {
+    document.getElementById('dog').width='400';
+    document.getElementById('dog').height='400';
+  }
+  </script>
 </head>
 <body style="background-color:powderblue;">
 <body>
 
+
 <h1 style="font-family:georgia;">About Me</h1>
-<img src= "http://images.clipartpanda.com/person-clip-art-dc7g64qc9.png" alt="http://images.clipartpanda.com/person-clip-art-dc7g64qc9.png" width="104" height="142">
+<img id="lady" src="https://lilian-l.github.io/portfolio/FullSizeRender.jpg" width="200" height="200" name="dogFace"
+onmouseover="giantDog()"
+onmouseout="dogFace.width='200';dogFace.height='200';" />
 
 <p style="text-align:Left;font-family:georgia;font-size:160%;">Lilian Le</p>
 <head>
@@ -22,7 +32,7 @@ function myFunction() {
 <button type="button" onclick="myFunction()">More About Me</button>
 
 <h2 style="font-family:georgia;font-size:100%;">Likes</h2>
-<p style="text-align:Left;font-family:georgia;">Coffee<br>Beyonce<br>Reading<br>Law and Order:SVU</p>
+<p style="text-align:Left;font-family:georgia;">Coffee<br>Beyonce<br>Reading<br>Law and Order: SVU</p>
 
 <h3 style="font-family:georgia;font-size:100%">Dislikes</h3>
 <p style="text-align:Left;font-family:georgia;">Sparkling Water<br>Onions<br>Celery</p>
